@@ -1,0 +1,20 @@
+Indestructible|2008|Disturbed|Nao
+The Sickness|2000|Disturbed|Nao
+Immortalized|2015|Disturbed|Nao
+Ten Thousand Fists|2005|Disturbed|Nao
+Evolution|2018|Disturbed|Nao
+Nightmare|2010|Avenged Sevenfold|Nao
+Hail to the King|2013|Avenged Sevenfold|Nao
+The Stage|2016|Avenged Sevenfold|Nao
+Avenged Sevenfold|2007|Avenged Sevenfold|Nao
+Thriller|1982|Michael Jackson|Nao
+Bad|1987|Michael Jackson|Nao
+Off the Wall|1979|Michael Jackson|Sim
+Dangerous|1991|Michael Jackson|Nao
+Anti|2016|Rihanna|Nao
+Loud|2010|Rihanna|Nao
+A Girl Like Me|2006|Rihanna|Nao
+An Evening with Silk Sonic|2021|Bruno Mars|Nao
+Greatest|2018|Bruno Mars|Nao
+24K Magic|2016|Bruno Mars|Nao
+The Grenade Sessions|2011|Bruno Mars|Sim
