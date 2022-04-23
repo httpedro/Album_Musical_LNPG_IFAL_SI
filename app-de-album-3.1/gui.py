@@ -95,7 +95,7 @@ def busca_por_ano():
         lista = preencher_ano(op, ano)
         # Preenche
         for dados in lista:
-            treeview.insert('','end', values=(dados))
+            treeview.insert('','end', values=(dados['album'], dados['ano'], dados['artista'], dados['lancamento']))
 
 
     busca_ano_screem = Tk()
