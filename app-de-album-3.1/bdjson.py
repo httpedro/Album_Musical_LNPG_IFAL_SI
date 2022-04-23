@@ -24,4 +24,22 @@ def preenche_artista(artista):
 
 
 def preencher_ano(op, ano):
-    print()
+    
+    with open('app-de-album-3.1/bd-json.json', 'r') as json_file:
+        data = json.load(json_file)    
+        matriz = []
+        for values in data:
+
+            if op == "Anterior a":
+                if int(ano) >= int(values['ano']):
+                    matriz.append(values)
+
+            elif op == "Posterior a":
+                if int(ano) <= int(values['ano']):
+                    matriz.append(values)
+
+            elif op == "Igual a":
+                if int(ano) == int(values['ano']):
+                    matriz.append(values)
+
+    return matriz
