@@ -20,7 +20,16 @@ def preenche_bd():
 
 
 def preenche_artista(artista):
-    print()
+    with open('app-de-album-3.1/bd-json.json', 'r') as json_file:
+        arquivo = json.load(json_file)
+        matriz = []
+
+        for dados in arquivo:
+            for x in range(len(artista)):
+                if (str(artista[x]).lower() in dados['artista'].lower()):
+                    matriz.append(dados)
+                    break
+    return matriz
 
 
 def preencher_ano(op, ano):

@@ -59,7 +59,7 @@ def busca_por_artista():
         lista = preencher_artista(artista)
         # Preenche
         for dados in lista:
-            treeview.insert('','end', values=(dados))
+            treeview.insert('','end', values=(dados['album'], dados['ano'], dados['artista'], dados['lancamento']))
 
 
     busca_artista_screem = Tk()
