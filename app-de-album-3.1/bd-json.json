@@ -1,14 +1,92 @@
 [
  {
-  "album": "teste",
-  "ano": 1,
-  "artista": "teste",
+  "album": "Indestructible",
+  "ano": 2008,
+  "artista": "Disturbed",
+  "lancamento": "Nao"
+ },
+ {
+  "album": "The Sickness",
+  "ano": 2000,
+  "artista": "Disturbed",
+  "lancamento": "Nao"
+ },
+ {
+  "album": "Immortalized",
+  "ano": 2015,
+  "artista": "Disturbed",
+  "lancamento": "Nao"
+ },
+ {
+  "album": "Ten Thousand Fists",
+  "ano": 2005,
+  "artista": "Disturbed",
+  "lancamento": "Nao"
+ },
+ {
+  "album": "Evolution",
+  "ano": 2018,
+  "artista": "Disturbed",
+  "lancamento": "Nao"
+ },
+ {
+  "album": "Nightmare",
+  "ano": 2010,
+  "artista": "Avenged Sevenfold",
+  "lancamento": "Nao"
+ },
+ {
+  "album": "Hail to the King",
+  "ano": 2013,
+  "artista": "Avenged Sevenfold",
+  "lancamento": "Nao"
+ },
+ {
+  "album": "The Stage",
+  "ano": 2016,
+  "artista": "Avenged Sevenfold",
+  "lancamento": "Nao"
+ },
+ {
+  "album": "Thriller",
+  "ano": 1982,
+  "artista": "Michael Jackson",
+  "lancamento": "Nao"
+ },
+ {
+  "album": "Bad",
+  "ano": 1987,
+  "artista": "Michael Jackson",
+  "lancamento": "Nao"
+ },
+ {
+  "album": "Off the Wall",
+  "ano": 1991,
+  "artista": "Michael Jackson",
   "lancamento": "Sim"
  },
  {
-  "album": "teste2",
-  "ano": 1222,
-  "artista": "teste2",
-  "lancamento": "Sim"
+  "album": "Dangerous",
+  "ano": 1991,
+  "artista": "Michael Jackson",
+  "lancamento": "Nao"
+ },
+ {
+  "album": "Anti",
+  "ano": 2016,
+  "artista": "Rihanna",
+  "lancamento": "Nao"
+ },
+ {
+  "album": "Loud",
+  "ano": 2010,
+  "artista": "Rihanna",
+  "lancamento": "Nao"
+ },
+ {
+  "album": "A Girl Like Me",
+  "ano": 2006,
+  "artista": "Rihanna",
+  "lancamento": "Nao"
  }
 ]
