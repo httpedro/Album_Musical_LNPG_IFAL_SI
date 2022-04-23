@@ -1,0 +1,14 @@
+[
+ {
+  "album": "teste",
+  "ano": 1,
+  "artista": "teste",
+  "lancamento": "Sim"
+ },
+ {
+  "album": "teste2",
+  "ano": 1222,
+  "artista": "teste2",
+  "lancamento": "Sim"
+ }
+]
