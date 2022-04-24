@@ -43,7 +43,7 @@ def banco_dados_screem():
     lista = preencher_bd()
     # Preenche a TreeView
     for dados in lista:
-        treeview.insert('','end',values=(dados))   
+        treeview.insert('','end', values=(dados['album'], dados['ano'], dados['artista'], dados['lancamento']))
     
     banco_dados_screem.mainloop()         
 

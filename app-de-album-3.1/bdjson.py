@@ -7,16 +7,21 @@ def gravar_dados(album, ano, artista, lancamento):
         'artista': artista,
         'lancamento': lancamento
         }
-    with open('app-de-album/bd-json.json', 'r') as json_file:
+    with open('app-de-album-3.1/bd-json.json', 'r') as json_file:
         oldData = json.load(json_file)
-    with open('app-de-album/bd-json.json', 'w') as json_file:
+    with open('app-de-album-3.1/bd-json.json', 'w') as json_file:
         oldData.append(newData)
         jsoned_data = json.dumps(oldData, indent=True)
         json_file.write(jsoned_data)
 
 
 def preenche_bd():
-    print()
+    with open('app-de-album-3.1/bd-json.json', "r") as json_file:
+        arquivo = json.load(json_file)
+        matriz = []
+
+
+    return matriz
 
 
 def preenche_artista(artista):
