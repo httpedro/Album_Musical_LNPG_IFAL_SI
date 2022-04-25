@@ -1,5 +1,15 @@
 import json
 
+def tratamento():
+    try:    
+        with open('app-de-album-3.1/bd-json.json', 'r') as json_file:
+            json.load(json_file)
+
+    except (json.decoder.JSONDecodeError, FileNotFoundError):
+        with open('app-de-album-3.1/bd-json.json', 'w') as json_file:
+            json_file.write('[]')
+            
+
 def gravar_dados(album, ano, artista, lancamento):
     newData = {
         'album': album,
@@ -7,6 +17,9 @@ def gravar_dados(album, ano, artista, lancamento):
         'artista': artista,
         'lancamento': lancamento
         }
+    
+    tratamento()
+    
     with open('app-de-album-3.1/bd-json.json', 'r') as json_file:
         oldData = json.load(json_file)
     with open('app-de-album-3.1/bd-json.json', 'w') as json_file:
@@ -16,12 +29,11 @@ def gravar_dados(album, ano, artista, lancamento):
 
 
 def preenche_bd():
+    tratamento()
     with open('app-de-album-3.1/bd-json.json', "r") as json_file:
         arquivo = json.load(json_file)
-        matriz = []
 
-
-    return matriz
+    return arquivo
 
 
 def preenche_artista(artista):
@@ -37,8 +49,7 @@ def preenche_artista(artista):
     return matriz
 
 
-def preencher_ano(op, ano):
-    
+def preencher_ano(op, ano):    
     with open('app-de-album-3.1/bd-json.json', 'r') as json_file:
         data = json.load(json_file)    
         matriz = []
